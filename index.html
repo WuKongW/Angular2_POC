@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular2 Quick Start</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
+    <!-- 确保ＩＥ支持ＥＳ６语法 -->
+    <script src="/node_modules/es6-shim/es6-shim.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+
+　<!-- 引入ｔｙｐｅｓｃｒｉｐｔ编译器，将会在浏览器端编译Ｔｙｐｅｓｃｒｉｐｔ脚本 -->
+    <script src="node_modules/typescript/lib/typescript.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+</head>
+<body>
+    <wk-app>Loading...</wk-app>
+    <script>
+        System.import('app').catch(function(err) {
+            console.error(err);
+        });
+    </script>
+</body>
+</html>
