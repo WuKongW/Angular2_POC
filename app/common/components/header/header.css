@@ -1,0 +1,17 @@
+header {
+display: block;
+min-height: 60px;
+padding: 8px 20px 0px 20px;
+background: #0273D4;
+border: 0;
+}
+
+.header {
+width: 100%;
+padding: 10px 0 12px 0;
+}
+
+img {
+width: 66px;
+height: 66px;
+}
