@@ -30,6 +30,9 @@ System.config({
         },
         '@angular/platform-browser-dynamic': {
             main: 'index.js'
+        },
+        '@angular/router': {
+            main: 'index.js'
         }
     }
 });
