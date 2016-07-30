@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {ROUTER_DIRECTIVES} from '@angular/router';
 
 import HeaderComponent from './header/header.component';
 import FooterComponent from './footer/footer.component';
@@ -7,15 +8,15 @@ import FooterComponent from './footer/footer.component';
   selector: 'wk-app',
   template: `<wk-header></wk-header>
                 <main>
-                   <h1>Hello Angular2 !</h1>
+                   <router-outlet></router-outlet>
                 </main>
             <wk-footer></wk-footer>`,
   styles: [`
       main {
-          height: 300px;
+          height: 400px;
           text-align: center;
           }
 `],
-  directives: [HeaderComponent, FooterComponent]
+  directives: [ROUTER_DIRECTIVES,HeaderComponent, FooterComponent]
 })
 export default class AppComponent { }

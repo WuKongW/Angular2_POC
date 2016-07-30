@@ -4,7 +4,7 @@
   "description": "This is one sample for Angular2 quick start",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server --port=22222"
+    "start": "live-server --port=22222 --entry-file=index.html"
   },
   "author": "Wu Kong",
   "dependencies": {
@@ -13,6 +13,7 @@
     "@angular/core": "2.0.0-rc.4",
     "@angular/platform-browser": "2.0.0-rc.4",
     "@angular/platform-browser-dynamic": "2.0.0-rc.4",
+    "@angular/router": "3.0.0-beta.2",
     
     "reflect-metadata": "^0.1.3",
     "rxjs": "5.0.0-beta.6",

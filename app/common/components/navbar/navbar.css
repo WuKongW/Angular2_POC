@@ -1,0 +1,21 @@
+.navbar {
+    height: 30px;
+}
+.navbar ul {
+    display:inline-block;
+    list-style: none;
+    padding: 0;
+}
+.navbar li {
+    float:left;
+    margin-left:10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navbar li a.active {
+    background-color: white;
+}
