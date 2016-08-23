@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {ROUTER_DIRECTIVES} from '@angular/router';
 
 import HeaderComponent from './header/header.component';
 import FooterComponent from './footer/footer.component';
@@ -17,6 +16,6 @@ import FooterComponent from './footer/footer.component';
           text-align: center;
           }
 `],
-  directives: [ROUTER_DIRECTIVES,HeaderComponent, FooterComponent]
+  directives: [HeaderComponent, FooterComponent]
 })
 export default class AppComponent { }
