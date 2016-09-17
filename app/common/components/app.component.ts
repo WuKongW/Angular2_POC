@@ -1,8 +1,5 @@
 import {Component} from '@angular/core';
 
-import HeaderComponent from './header/header.component';
-import FooterComponent from './footer/footer.component';
-
 @Component({
   selector: 'wk-app',
   template: `<wk-header></wk-header>
@@ -15,7 +12,6 @@ import FooterComponent from './footer/footer.component';
           height: 400px;
           text-align: center;
           }
-`],
-  directives: [HeaderComponent, FooterComponent]
+`]
 })
 export default class AppComponent { }
